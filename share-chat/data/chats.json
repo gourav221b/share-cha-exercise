@@ -1,0 +1,71 @@
+[
+  {
+    "id": "chat-blog-outline",
+    "title": "Blog outline for launch",
+    "owner_id": "user-alice",
+    "messages": [
+      {
+        "role": "human",
+        "content": "Write a short blog outline about our product launch.",
+        "uploaded_files": [
+          {
+            "filename": "brief.pdf",
+            "url": "https://internal.example/files/brief.pdf"
+          }
+        ]
+      },
+      {
+        "role": "tool",
+        "content": "Fetched brand voice notes (internal)."
+      },
+      {
+        "role": "ai",
+        "content": "Here is a 5-section outline focused on problem, solution, and launch CTA.",
+        "generated_file_names": [
+          {
+            "filename": "launch-outline.md",
+            "url": "https://internal.example/files/launch-outline.md"
+          }
+        ]
+      },
+      {
+        "role": "human",
+        "content": "Make the CTA sharper."
+      },
+      {
+        "role": "ai",
+        "content": "Updated CTA: Start free today — ship your first artifact in minutes."
+      }
+    ]
+  },
+  {
+    "id": "chat-deck-ideas",
+    "title": "Sales deck ideas",
+    "owner_id": "user-alice",
+    "messages": [
+      {
+        "role": "human",
+        "content": "Suggest 6 slides for an enterprise sales deck."
+      },
+      {
+        "role": "ai",
+        "content": "1) Hook 2) Problem 3) Solution 4) Proof 5) Pricing 6) Ask"
+      }
+    ]
+  },
+  {
+    "id": "chat-research",
+    "title": "Competitor research notes",
+    "owner_id": "user-bob",
+    "messages": [
+      {
+        "role": "human",
+        "content": "Summarize how Competitor X positions pricing."
+      },
+      {
+        "role": "ai",
+        "content": "They lead with usage-based pricing and a free tier capped at 3 exports/month."
+      }
+    ]
+  }
+]
