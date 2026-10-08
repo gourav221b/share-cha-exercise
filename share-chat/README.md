@@ -13,7 +13,7 @@ This is a simplified, file-backed version of a pattern we use in production: cre
 Requires Python 3.10+.
 
 ```bash
-cd share-chat-takehome
+cd share-chat
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
