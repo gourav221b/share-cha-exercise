@@ -1,4 +1,4 @@
-# Share Chat — Fullstack take-home
+# Share Chat — Fullstack
 
 Build a **public share-link** feature for chat conversations.
 
@@ -73,15 +73,6 @@ Seed chats live in `data/chats.json`. Your shares should be written as JSON file
 - Basic rate limit on create (e.g. N per minute per process)  
 - A couple of pytest cases for snapshot stripping / expiry
 
----
-
-## What to send back
-
-- Your branch / zip of the project  
-- A short note (5–10 lines): design choices, tradeoffs, what you’d do next with more time  
-- How you verified (manual steps or tests)
-
----
 
 ## Notes / constraints
 
